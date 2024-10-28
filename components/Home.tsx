@@ -20,7 +20,6 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import Image from "next/image";
-import { Separator } from "@/components/ui/separator";
 import { Download, ChevronRight, Bell } from "lucide-react";
 
 const images = ["/img1.jpeg", "/img2.jpeg", "/img3.webp"];

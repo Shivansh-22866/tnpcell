@@ -18,7 +18,7 @@ const ContactUs = () => {
                         DR. VENKATANARESHBABU KUPPILLI
                     </CardTitle>
                     <CardDescription className="text-sm sm:text-base">
-                        <Image src="/drvnk.png" className='w-48 h-48 object-cover rounded-full' width={300} height={300} alt="Dr. Venkatanaresh Babu Kuppilli" />
+                        <Image src="/drvnk.png" className='w-48 h-48 object-cover rounded-full mx-auto' width={300} height={300} alt="Dr. Venkatanaresh Babu Kuppilli" />
                         
                     </CardDescription>
                 </CardHeader>
@@ -37,7 +37,7 @@ const ContactUs = () => {
                         DR. LALAT INDU GIRI
                     </CardTitle>
                     <CardDescription className="text-sm sm:text-base">
-                        <Image src="/drlig.jpg" className='w-48 h-48 rounded-full' width={400} height={400} alt="Dr. Lalat Indu Giri" />
+                        <Image src="/drlig.jpg" className='w-48 h-48 rounded-full mx-auto' width={400} height={400} alt="Dr. Lalat Indu Giri" />
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -55,7 +55,7 @@ const ContactUs = () => {
                         DR. PRASANJIT DEY
                     </CardTitle>
                     <CardDescription className="text-sm sm:text-base">
-                        <Image src="/drpsd.jpg" className='w-48 h-48 object-cover rounded-full' width={400} height={400} alt="Dr. Prasanjit Dey" />
+                        <Image src="/drpsd.jpg" className='w-48 h-48 object-cover rounded-full mx-auto' width={400} height={400} alt="Dr. Prasanjit Dey" />
                     </CardDescription>
                 </CardHeader>
                 <CardContent>

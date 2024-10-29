@@ -10,7 +10,7 @@ const Recruiters: React.FC = () => {
   };
 
   return (
-    <div className="space-y-4 my-8">
+    <div className="space-y-4 my-8 mx-16">
       {/* Dropdown 1 */}
       <div className="relative">
         <button

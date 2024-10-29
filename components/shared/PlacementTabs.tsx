@@ -8,12 +8,13 @@ import Training from "../Training"
 import RecruitUs from "../RecruitUs"
 import Recruiters from "../Recruiters"
 import ContactUs from "../ContactUs"
+import AboutTheBatch from "../AboutTheBatch"
 
 const PlacementTabs = () => {
   return (
-    <div className="flex justify-center py-4 w-screen">
-        <Tabs defaultValue="home" className="">
-  <TabsList color="primary" className="w-full">
+    <div>
+        <Tabs defaultValue="home">
+  <TabsList color="primary" className="flex items-center justify-center flex-wrap h-auto py-2 my-4">
     <TabsTrigger value="home">Home</TabsTrigger>
     <TabsTrigger value="messages">Messages</TabsTrigger>
     <TabsTrigger value="announcements">Announcements</TabsTrigger>
@@ -35,7 +36,9 @@ const PlacementTabs = () => {
   <TabsContent value="training">
     <Training/>
   </TabsContent>
-  <TabsContent value="batchinfo">About the Batch</TabsContent>
+  <TabsContent value="batchinfo">
+    <AboutTheBatch/>
+  </TabsContent>
   <TabsContent value="recruit">
     <RecruitUs/>
   </TabsContent>
